@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.iictmsl.in/gallery.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Image Gallery_files/gallery.css">
+    <link rel="stylesheet" type="text/css" href="./Image Gallery_files/nav.css">
+    <link rel="stylesheet" href="./Image Gallery_files/all.css">
+
+    <title>Image Gallery</title>
+</head>
+
+<style>
+    #btn1 {
+        border: 1.5px solid #3498db;
+        background: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: "montserrat";
+        /* cursor: pointer; */
+        margin: 10px;
+        transition: 0.5s;
+        /* position: relative; */
+        /* overflow: hidden; */
+
+        color: #3498db;
+        border-radius: 15px;
+    }
+
+    #btn1:hover {
+        color: #fff;
+        background-color:lightsalmon;
+    }
+
+  
+</style>
+
+
+<body id="particles-js">
+    <div class="img-show">
+        <i class="fas fa-times-circle"></i>
+        <img src="https://www.iictmsl.in/gallery.html" alt="">
+        <div class="left"><i class="fas fa-arrow-left"></i></div>
+        <div class="right"><i class="fas fa-arrow-right"></i></div>
+    </div>
+
+    <!--============================End of Navbar SetUp Html==========================-->
+    <!--LOADING-->
+    <div class="load" style="display: none;">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!--End of LOADING-->
+    <!--NavbarSetUp-->
+    <nav>
+        <div class="links">
+            <ul>
+                <li><a href="https://www.iictmsl.in/index.html">HOME</a></li>
+                <li><a href="https://www.iictmsl.in/about.html">ABOUT US</a></li>
+                <!-- <li><a href="team.html">TEAM</a></li> -->
+                <!-- <li><a href="https://envisage.live/" target="_blank">ENVISAGE</a></li> -->
+                <li><a href="https://www.iictmsl.in/activity.html">ACTIVITY</a></li>
+                <li><a href="https://www.iictmsl.in/startup.html">OUR STARTUP</a></li>
+                <li class="active"><a href="https://www.iictmsl.in/gallery.html">GALLERY</a></li>
+                <li><a href="https://www.iictmsl.in/faculty.html">FACULTY</a></li>
+                <li><a href="https://www.iictmsl.in/alumni.html">ALUMNI</a></li>
+                <li><a href="https://www.iictmsl.in/contact.html">CONTACT</a></li>
+                <div class="marker"></div>
+
+            </ul>
+        </div>
+    </nav>
+    <!--FixedBar For Top of the Page-->
+    <div class="fixedbar">
+        <div>
+            <a href="https://www.iictmsl.in/index.html">
+                <img src="./Image Gallery_files/IIC.png">
+            </a>
+        </div>
+        <div>
+            <i class="far fa-moon" id="day-night"></i>
+
+            <div class="handburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--Scroll Top Option-->
+    <div class="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <div id="main">
+        <!-- cbutton -->
+        <div class="header">
+            <button id="btn1" onclick="togglehide1()">E-START</button>
+            <!-- <button id="btn2" onclick="togglehide2()">E-START</button> -->
+
+        </div>
+        <div id="ead">
+            <div class="header">
+
+                <h1>EAD</h1>
+            </div>
+            <!-- Photo Grid -->
+            <!-- <div id="ead"> -->
+            <div class="row">
+                <div class="column">
+                    <img src="./Image Gallery_files/ead1.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead2.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead5.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead3.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead4.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead6.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/ead8.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead9.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead10.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead11.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead12.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead13.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead25.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/ead15.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead16.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead17.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead18.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead19.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/ead22.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead23.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead24.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead21.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead14.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/ead20.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <!--========================Estart===============================-->
+
+        <div id="estart">
+            <div class="header">
+                <h1>E-START</h1>
+            </div>
+            <!-- Photo Grid -->
+            <div class="row">
+                <div class="column">
+                    <img src="./Image Gallery_files/estart1.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart3.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart4.jpg" style="width:100%;height: 485px">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/estart5.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart6.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart7.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart8.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/estart9.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart10.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart11.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart12.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./Image Gallery_files/estart13.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart14.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart15.jpg" style="width:100%">
+                    <img src="./Image Gallery_files/estart16.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <!--Footer is Same For Every File,And It has *****Inline-CSS****-->
+        <footer
+            style="width: 100%;height: 50px;background: black;color: white;line-height: 50px;text-align: center;margin-top: 80px">
+            <p style="margin: 0">Contact Us -
+                <a target="_blank" href="https://www.facebook.com/iictmsl/"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://twitter.com/iictmsl"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/iictmsl/"><i style="margin: 0 5px;color: white"
+                        class="footerIcon fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/iictmsl/"><i
+                        style="margin: 0 5px;color: white" class="footerIcon fab fa-linkedin-in"></i></a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="./Image Gallery_files/jquery.js.download"></script>
+    <script src="./Image Gallery_files/fontawesome.min.js.download"></script>
+    <script src="./Image Gallery_files/particles.js.download"></script>
+    <script src="./Image Gallery_files/gallery.js.download"></script><canvas class="particles-js-canvas-el" width="1898"
+        height="892" style="width: 100%; height: 100%;"></canvas>
+    <script src="./Image Gallery_files/nav.js.download"></script>
+
+    <script>
+        function togglehide1() {
+            let btn1 = document.getElementById('btn1');
+            let ead = document.getElementById('ead');
+            if (ead.style.display != 'none') {
+                ead.style.display = 'none';
+                btn1.innerHTML = "EAD";
+            }
+            else {
+                ead.style.display = 'block';
+                btn1.innerHTML = "E-START";
+            }
+
+        }
+
+
+        function togglehide2() {
+            let btn2 = document.getElementById('btn2');
+            let estart = document.getElementById('estart');
+            if (estart.style.display != 'none') {
+                estart.style.display = 'none';
+            }
+            else {
+                estart.style.display = 'block';
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
